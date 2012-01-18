@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Acro' target in the 'Acro' project
+//
+
+#ifdef __OBJC__
+  #import <Foundation/Foundation.h>
+#endif

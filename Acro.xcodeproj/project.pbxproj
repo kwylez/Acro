@@ -1,0 +1,235 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0143DBBA14C75A70008EC5F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0143DBB914C75A70008EC5F7 /* Foundation.framework */; };
+		0143DBBD14C75A70008EC5F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0143DBBC14C75A70008EC5F7 /* main.m */; };
+		0143DBC114C75A70008EC5F7 /* Acro.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0143DBC014C75A70008EC5F7 /* Acro.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0143DBB314C75A70008EC5F7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0143DBC114C75A70008EC5F7 /* Acro.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0143DBB514C75A70008EC5F7 /* Acro */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Acro; sourceTree = BUILT_PRODUCTS_DIR; };
+		0143DBB914C75A70008EC5F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0143DBBC14C75A70008EC5F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0143DBBF14C75A70008EC5F7 /* Acro-Prefix.pch */ = {isa = PBXFileReference; path = "Acro-Prefix.pch"; sourceTree = "<group>"; };
+		0143DBC014C75A70008EC5F7 /* Acro.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Acro.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0143DBB214C75A70008EC5F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0143DBBA14C75A70008EC5F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0143DBAA14C75A70008EC5F7 = {
+			isa = PBXGroup;
+			children = (
+				0143DBBB14C75A70008EC5F7 /* Acro */,
+				0143DBB814C75A70008EC5F7 /* Frameworks */,
+				0143DBB614C75A70008EC5F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0143DBB614C75A70008EC5F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0143DBB514C75A70008EC5F7 /* Acro */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0143DBB814C75A70008EC5F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0143DBB914C75A70008EC5F7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0143DBBB14C75A70008EC5F7 /* Acro */ = {
+			isa = PBXGroup;
+			children = (
+				0143DBBC14C75A70008EC5F7 /* main.m */,
+				0143DBC014C75A70008EC5F7 /* Acro.1 */,
+				0143DBBE14C75A70008EC5F7 /* Supporting Files */,
+			);
+			path = Acro;
+			sourceTree = "<group>";
+		};
+		0143DBBE14C75A70008EC5F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0143DBBF14C75A70008EC5F7 /* Acro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0143DBB414C75A70008EC5F7 /* Acro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0143DBC414C75A70008EC5F7 /* Build configuration list for PBXNativeTarget "Acro" */;
+			buildPhases = (
+				0143DBB114C75A70008EC5F7 /* Sources */,
+				0143DBB214C75A70008EC5F7 /* Frameworks */,
+				0143DBB314C75A70008EC5F7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Acro;
+			productName = Acro;
+			productReference = 0143DBB514C75A70008EC5F7 /* Acro */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0143DBAC14C75A70008EC5F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = VW;
+			};
+			buildConfigurationList = 0143DBAF14C75A70008EC5F7 /* Build configuration list for PBXProject "Acro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0143DBAA14C75A70008EC5F7;
+			productRefGroup = 0143DBB614C75A70008EC5F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0143DBB414C75A70008EC5F7 /* Acro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0143DBB114C75A70008EC5F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0143DBBD14C75A70008EC5F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0143DBC214C75A70008EC5F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0143DBC314C75A70008EC5F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0143DBC514C75A70008EC5F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acro/Acro-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0143DBC614C75A70008EC5F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acro/Acro-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0143DBAF14C75A70008EC5F7 /* Build configuration list for PBXProject "Acro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0143DBC214C75A70008EC5F7 /* Debug */,
+				0143DBC314C75A70008EC5F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0143DBC414C75A70008EC5F7 /* Build configuration list for PBXNativeTarget "Acro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0143DBC514C75A70008EC5F7 /* Debug */,
+				0143DBC614C75A70008EC5F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0143DBAC14C75A70008EC5F7 /* Project object */;
+}
