@@ -29,7 +29,7 @@
 		0143DBB514C75A70008EC5F7 /* Acro */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Acro; sourceTree = BUILT_PRODUCTS_DIR; };
 		0143DBB914C75A70008EC5F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0143DBBC14C75A70008EC5F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0143DBBF14C75A70008EC5F7 /* Acro-Prefix.pch */ = {isa = PBXFileReference; path = "Acro-Prefix.pch"; sourceTree = "<group>"; };
+		0143DBBF14C75A70008EC5F7 /* Acro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Acro-Prefix.pch"; sourceTree = "<group>"; };
 		0143DBC014C75A70008EC5F7 /* Acro.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Acro.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
